@@ -1,0 +1,15 @@
+{
+    "name": "kb/php_mvc_core",
+    "autoload": {
+        "psr-4": {
+            "Kb\\PhpMvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Keith Barreras",
+            "email": "keith.barreras@gmail.com"
+        }
+    ],
+    "require": {}
+}
