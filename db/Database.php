@@ -5,14 +5,16 @@
  * Time: 1:20 PM
  */
 
-namespace app\core\db;
+namespace kb\phpmvc\db;
 
-use app\core\Application;
+use kb\phpmvc\Application;
+
+
 /**
  * Class Database
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core
+ * @package kb\phpmvc
  */
 class Database {
     public $pdo;

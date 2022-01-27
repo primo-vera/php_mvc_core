@@ -5,15 +5,15 @@
  * Time: 11:47 PM
  */
 
-namespace app\core\form;
+namespace kb\phpmvc\form;
 
-use app\core\Model;
+use kb\phpmvc\Model;
 
 /**
  * Class InputField
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core\form
+ * @package kb\phpmvc\form
  */
 
  class InputField extends Basefield 
@@ -29,7 +29,7 @@ use app\core\Model;
     /**
      * Field constructor.
     *
-    * @param \app\core\Model $model
+    * @param \kb\phpmvc\Model $model
     * @param string          $attribute
     */
     public function __construct(Model $model, string $attribute)

@@ -5,14 +5,14 @@
  * Time: 7:40 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
 
 /**
 * Class Request
 *
 * @author Keith Barreras <keith.barreras@gmail.com>
-* @package app\core
+* @package kb\phpmvc
 */
 class Request {
     public function getPath() 

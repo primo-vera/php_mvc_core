@@ -5,15 +5,15 @@
  * Time: 7:40 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
-use app\core\exception\NotFoundException;
+use kb\phpmvc\exception\NotFoundException;
 
 /**
 * Class Router
 *
 * @author Keith Barreras <keith.barreras@gmail.com>
-* @package app\core
+* @package kb\phpmvc
 */
 class Router 
 {
@@ -23,8 +23,8 @@ class Router
     /**
      * Router constructor.
      * 
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \kb\phpmvc\Request $request
+     * @param \kb\phpmvc\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -54,7 +54,7 @@ class Router
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \kb\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

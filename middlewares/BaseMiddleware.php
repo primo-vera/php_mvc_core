@@ -5,14 +5,14 @@
  * Time: 2:06 PM
  */
 
- namespace app\core\middlewares;
+ namespace kb\phpmvc\middlewares;
 
 
  /**
   * Class BaseMiddleware
   *
   * @author Keith Barreras <keith.barreras@gmail.com>
-  * @package app\core
+  * @package kb\phpmvc
   */
   abstract class BaseMiddleware
   {

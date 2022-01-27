@@ -5,14 +5,14 @@
  * Time: 11:47 PM
  */
 
-namespace app\core\form;
+namespace kb\phpmvc\form;
 
 
 /**
  * Class TextareaField
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core\form
+ * @package kb\phpmvc\form
  */
 class TextareaField extends Basefield
 {

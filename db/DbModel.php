@@ -5,17 +5,17 @@
  * Time: 8:48 PM
  */
 
- namespace app\core\db;
+ namespace kb\phpmvc\db;
 
- use app\core\Application;
- use app\core\Model;
+ use kb\phpmvc\Application;
+ use kb\phpmvc\Model;
 
 
  /**
  * Class DbModel
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core
+ * @package kb\phpmvc
  */
 abstract class DbModel extends Model
 {

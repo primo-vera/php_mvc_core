@@ -5,7 +5,7 @@
  * Time: 2:27 PM
  */
 
- namespace app\core\exception;
+ namespace kb\phpmvc\exception;
 
 
 
@@ -13,7 +13,7 @@
   * Class ForbiddenException
   *
   * @author Keith Barreras <keith.barreras@gmail.com>
-  * @package app\core\exception
+  * @package kb\phpmvc\exception
   */
   class ForbiddenException extends \Exception
   {

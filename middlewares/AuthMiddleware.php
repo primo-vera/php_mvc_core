@@ -5,16 +5,16 @@
  * Time: 2:12 PM
  */
 
- namespace app\core\middlewares;
+ namespace kb\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use kb\phpmvc\Application;
+use kb\phpmvc\exception\ForbiddenException;
 
 /**
   * Class AuthMiddleware
   *
   * @author Keith Barreras <keith.barreras@gmail.com>
-  * @package app\core
+  * @package kb\phpmvc
   */
   class AuthMiddleware extends BaseMiddleware 
   {

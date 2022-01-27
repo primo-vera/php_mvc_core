@@ -5,14 +5,14 @@
  * Time: 5:44 PM
  */
 
- namespace app\core;
+ namespace kb\phpmvc;
 
 
  /**
  * Class View
  *
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core
+ * @package kb\phpmvc
  */
 class View
 {

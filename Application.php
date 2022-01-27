@@ -5,16 +5,16 @@
  * Time: 7:40 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use kb\phpmvc\db\Database;
+use kb\phpmvc\db\DbModel;
 /**
  * Class Application
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core
+ * @package kb\phpmvc
  */
 class Application
 {
@@ -77,17 +77,17 @@ class Application
     }
 
     /**
-     * @return \app\core\Controller
+     * @return \kb\phpmvc\Controller
      */
-    public function getController(): \app\core\Controller
+    public function getController(): \kb\phpmvc\Controller
     {
         return $this->controller;   
     }
 
     /**
-     * @param \app\core\Controller $controller
+     * @param \kb\phpmvc\Controller $controller
      */
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\kb\phpmvc\Controller $controller): void
     {
         $this->controller = $controller;
     }

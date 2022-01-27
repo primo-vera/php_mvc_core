@@ -5,15 +5,15 @@
  * Time: 11:47 PM
  */
 
-namespace app\core\form;
+namespace kb\phpmvc\form;
 
-use app\core\Model;
+use kb\phpmvc\Model;
 
 /**
  * Class Form
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core\form
+ * @package kb\phpmvc\form
  */
 
  class Form 

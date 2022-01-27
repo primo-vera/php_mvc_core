@@ -5,13 +5,13 @@
  * Time: 11::21 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
 /**
 * Class Session
 *
 * @author Keith Barreras <keith.barreras@gmail.com>
-* @package app\core
+* @package kb\phpmvc
 */
 class Session 
 {

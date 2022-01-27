@@ -5,7 +5,7 @@
  * Time: 3:00 PM
  */
 
- namespace app\core\exception;
+ namespace kb\phpmvc\exception;
 
 
 
@@ -13,7 +13,7 @@
   * Class NotFoundException
   *
   * @author Keith Barreras <keith.barreras@gmail.com>
-  * @package app\core\exception
+  * @package kb\phpmvc\exception
   */
   class NotFoundException extends \Exception
   {

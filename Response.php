@@ -5,13 +5,13 @@
  * Time: 7:40 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
 /**
 * Class Response
 *
 * @author Keith Barreras <keith.barreras@gmail.com>
-* @package app\core
+* @package kb\phpmvc
 */
 class Response 
 {

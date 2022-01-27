@@ -5,22 +5,22 @@
  * Time: 7:40 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use kb\phpmvc\middlewares\BaseMiddleware;
 
 /**
 * Class Controller
 *
 * @author Keith Barreras <keith.barreras@gmail.com>
-* @package app\core
+* @package kb\phpmvc
 */
 class Controller
 {
     public $layout = 'main';
     public $action = '';
     /**
-     * @var \app\core\middlewares\Basemiddleware[]
+     * @var \kb\phpmvc\middlewares\Basemiddleware[]
      */
     protected $middlewares = [];
 
@@ -40,7 +40,7 @@ class Controller
     }
 
     /**
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \kb\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

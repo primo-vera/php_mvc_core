@@ -5,16 +5,16 @@
  * Time: 6:45 PM
  */
 
-namespace app\core\form;
+namespace kb\phpmvc\form;
 
 
-use app\core\Model;
+use kb\phpmvc\Model;
 
 /**
  * Class Basefield
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core\form
+ * @package kb\phpmvc\form
  */
 
  abstract class Basefield
@@ -25,7 +25,7 @@ use app\core\Model;
     /**
      * Field constructor.
     *
-    * @param \app\core\Model $model
+    * @param \kb\phpmvc\Model $model
     * @param string          $attribute
     */
     public function __construct(Model $model, string $attribute)

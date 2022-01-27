@@ -5,14 +5,14 @@
  * Time: 10:07 PM
  */
 
-namespace app\core;
+namespace kb\phpmvc;
 
 
 /**
  * Class Model
  * 
  * @author Keith Barreras <keith.barreras@gmail.com>
- * @package app\core
+ * @package kb\phpmvc
  */
 abstract class Model 
 {
